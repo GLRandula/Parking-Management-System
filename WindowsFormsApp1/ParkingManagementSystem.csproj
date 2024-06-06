@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BookParking.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BookParking.Designer.cs">
+      <DependentUpon>BookParking.cs</DependentUpon>
+    </Compile>
     <Compile Include="Problems.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -84,6 +90,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="BookParking.resx">
+      <DependentUpon>BookParking.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Home.resx">
       <DependentUpon>Home.cs</DependentUpon>
     </EmbeddedResource>
