@@ -10,15 +10,11 @@ using System.Windows.Forms;
 
 namespace ParkingManagementSystem
 {
-    public partial class Home : Form
+    public partial class ParkingSpaces : Form
     {
-        public Home()
+        public ParkingSpaces()
         {
             InitializeComponent();
         }
-
-        
-
-       
     }
 }
