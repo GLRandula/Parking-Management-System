@@ -17,8 +17,5 @@ namespace ParkingManagementSystem
             InitializeComponent();
         }
 
-        
-
-       
     }
 }
