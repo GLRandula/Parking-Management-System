@@ -10,12 +10,11 @@ using System.Windows.Forms;
 
 namespace ParkingManagementSystem
 {
-    public partial class Home : Form
+    public partial class SignUp : Form
     {
-        public Home()
+        public SignUp()
         {
             InitializeComponent();
         }
-
     }
 }
