@@ -49,9 +49,8 @@ namespace ParkingManagementSystem
             this.signup = new System.Windows.Forms.Button();
             this.login = new System.Windows.Forms.Button();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.sideBar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxHome)).BeginInit();
@@ -60,7 +59,7 @@ namespace ParkingManagementSystem
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             this.SuspendLayout();
             // 
             // sideBar
@@ -84,7 +83,7 @@ namespace ParkingManagementSystem
             this.sideBar.Controls.Add(this.label1);
             this.sideBar.Location = new System.Drawing.Point(0, 0);
             this.sideBar.Name = "sideBar";
-            this.sideBar.Size = new System.Drawing.Size(347, 990);
+            this.sideBar.Size = new System.Drawing.Size(350, 1083);
             this.sideBar.TabIndex = 0;
             // 
             // pictureBox5
@@ -243,13 +242,13 @@ namespace ParkingManagementSystem
             // 
             // signup
             // 
-            this.signup.BackColor = System.Drawing.Color.MediumOrchid;
+            this.signup.BackColor = System.Drawing.Color.DarkBlue;
             this.signup.Cursor = System.Windows.Forms.Cursors.Hand;
             this.signup.FlatAppearance.BorderColor = System.Drawing.Color.MediumOrchid;
             this.signup.FlatAppearance.BorderSize = 0;
             this.signup.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.signup.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.signup.Location = new System.Drawing.Point(1221, 43);
+            this.signup.Location = new System.Drawing.Point(1193, 80);
             this.signup.Name = "signup";
             this.signup.Size = new System.Drawing.Size(151, 48);
             this.signup.TabIndex = 1;
@@ -265,7 +264,7 @@ namespace ParkingManagementSystem
             this.login.FlatAppearance.BorderSize = 0;
             this.login.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.login.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.login.Location = new System.Drawing.Point(1049, 43);
+            this.login.Location = new System.Drawing.Point(1032, 80);
             this.login.Name = "login";
             this.login.Size = new System.Drawing.Size(151, 48);
             this.login.TabIndex = 3;
@@ -274,67 +273,52 @@ namespace ParkingManagementSystem
             // 
             // pictureBox6
             // 
-            this.pictureBox6.BackColor = System.Drawing.Color.Black;
+            this.pictureBox6.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(340, 0);
+            this.pictureBox6.Location = new System.Drawing.Point(3, 0);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(1083, 825);
+            this.pictureBox6.Size = new System.Drawing.Size(1420, 824);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox6.TabIndex = 4;
             this.pictureBox6.TabStop = false;
             // 
-            // label9
+            // button1
             // 
-            this.label9.AutoSize = true;
-            this.label9.BackColor = System.Drawing.Color.Black;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.ForeColor = System.Drawing.Color.White;
-            this.label9.Location = new System.Drawing.Point(222, 41);
-            this.label9.MaximumSize = new System.Drawing.Size(600, 0);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(578, 92);
-            this.label9.TabIndex = 5;
-            this.label9.Text = "A Smart Parking Management System";
-            this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.button1.BackColor = System.Drawing.Color.Red;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(1374, 12);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(36, 37);
+            this.button1.TabIndex = 8;
+            this.button1.Text = "X";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
-            // label10
+            // pictureBox7
             // 
-            this.label10.AutoSize = true;
-            this.label10.BackColor = System.Drawing.Color.Black;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.ForeColor = System.Drawing.Color.White;
-            this.label10.Location = new System.Drawing.Point(222, 124);
-            this.label10.MaximumSize = new System.Drawing.Size(580, 0);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(580, 66);
-            this.label10.TabIndex = 6;
-            this.label10.Text = "\nThis parking management system is an integrated smart parking system that automa" +
-    "tes end-to-end parking processes.";
-            this.label10.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.label10.Click += new System.EventHandler(this.label10_Click);
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.Black;
-            this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.panel1.Controls.Add(this.label9);
-            this.panel1.Controls.Add(this.label10);
-            this.panel1.Cursor = System.Windows.Forms.Cursors.Default;
-            this.panel1.Location = new System.Drawing.Point(340, 279);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1083, 225);
-            this.panel1.TabIndex = 7;
+            this.pictureBox7.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
+            this.pictureBox7.Location = new System.Drawing.Point(344, 348);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(1079, 128);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox7.TabIndex = 9;
+            this.pictureBox7.TabStop = false;
             // 
             // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.ClientSize = new System.Drawing.Size(1422, 822);
-            this.Controls.Add(this.panel1);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.ClientSize = new System.Drawing.Size(1137, 657);
+            this.Controls.Add(this.sideBar);
+            this.Controls.Add(this.pictureBox7);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.login);
             this.Controls.Add(this.signup);
-            this.Controls.Add(this.sideBar);
             this.Controls.Add(this.pictureBox6);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Home";
@@ -351,8 +335,7 @@ namespace ParkingManagementSystem
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -379,8 +362,7 @@ namespace ParkingManagementSystem
         private System.Windows.Forms.Button signup;
         private System.Windows.Forms.Button login;
         private System.Windows.Forms.PictureBox pictureBox6;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.PictureBox pictureBox7;
     }
 }
