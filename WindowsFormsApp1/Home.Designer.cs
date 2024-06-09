@@ -49,6 +49,9 @@ namespace ParkingManagementSystem
             this.signup = new System.Windows.Forms.Button();
             this.login = new System.Windows.Forms.Button();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.sideBar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxHome)).BeginInit();
@@ -57,6 +60,7 @@ namespace ParkingManagementSystem
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // sideBar
@@ -80,7 +84,7 @@ namespace ParkingManagementSystem
             this.sideBar.Controls.Add(this.label1);
             this.sideBar.Location = new System.Drawing.Point(0, 0);
             this.sideBar.Name = "sideBar";
-            this.sideBar.Size = new System.Drawing.Size(347, 825);
+            this.sideBar.Size = new System.Drawing.Size(347, 990);
             this.sideBar.TabIndex = 0;
             // 
             // pictureBox5
@@ -279,12 +283,55 @@ namespace ParkingManagementSystem
             this.pictureBox6.TabIndex = 4;
             this.pictureBox6.TabStop = false;
             // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.BackColor = System.Drawing.Color.Black;
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ForeColor = System.Drawing.Color.White;
+            this.label9.Location = new System.Drawing.Point(222, 41);
+            this.label9.MaximumSize = new System.Drawing.Size(600, 0);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(578, 92);
+            this.label9.TabIndex = 5;
+            this.label9.Text = "A Smart Parking Management System";
+            this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.BackColor = System.Drawing.Color.Black;
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.Color.White;
+            this.label10.Location = new System.Drawing.Point(222, 124);
+            this.label10.MaximumSize = new System.Drawing.Size(580, 0);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(580, 66);
+            this.label10.TabIndex = 6;
+            this.label10.Text = "\nThis parking management system is an integrated smart parking system that automa" +
+    "tes end-to-end parking processes.";
+            this.label10.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.label10.Click += new System.EventHandler(this.label10_Click);
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.Black;
+            this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.panel1.Controls.Add(this.label9);
+            this.panel1.Controls.Add(this.label10);
+            this.panel1.Cursor = System.Windows.Forms.Cursors.Default;
+            this.panel1.Location = new System.Drawing.Point(340, 279);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1083, 225);
+            this.panel1.TabIndex = 7;
+            // 
             // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.ClientSize = new System.Drawing.Size(1137, 657);
+            this.ClientSize = new System.Drawing.Size(1422, 822);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.login);
             this.Controls.Add(this.signup);
             this.Controls.Add(this.sideBar);
@@ -304,6 +351,8 @@ namespace ParkingManagementSystem
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -330,5 +379,8 @@ namespace ParkingManagementSystem
         private System.Windows.Forms.Button signup;
         private System.Windows.Forms.Button login;
         private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Panel panel1;
     }
 }
