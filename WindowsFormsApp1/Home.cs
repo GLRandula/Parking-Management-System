@@ -24,7 +24,8 @@ namespace ParkingManagementSystem
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            SignUp signUp = new SignUp();
+            signUp.Show();
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -65,6 +66,39 @@ namespace ParkingManagementSystem
         private void button1_Click_1(object sender, EventArgs e)
         {
 
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+
+        }
+
+        private int imageNumber = 1;
+
+        private void LoadNextImage()
+        {
+            if (imageNumber == 4) 
+            {
+                imageNumber = 1;
+            }
+            slidepic.ImageLocation = string.Format(@"Resources\{0}.png", imageNumber);
+            imageNumber++;
+        }
+
+        private void slidepic_Click(object sender, EventArgs e)
+        {
+            LoadNextImage();
+        }
+
+        private void pictureBox8_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void login_Click(object sender, EventArgs e)
+        {
+            Login login = new Login();
+            login.Show();
         }
     }
 }
