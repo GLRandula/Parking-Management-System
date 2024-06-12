@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{FD0C3FD3-8ABF-4F0B-BD9E-26490BE0A495}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>WindowsFormsApp1</RootNamespace>
-    <AssemblyName>WindowsFormsApp1</AssemblyName>
+    <RootNamespace>ParkingManagementSystem</RootNamespace>
+    <AssemblyName>ParkingManagementSystem</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,14 +46,65 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="BookParking.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="BookParking.Designer.cs">
+      <DependentUpon>BookParking.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Problems.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Problems.Designer.cs">
+      <DependentUpon>Problems.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports.Designer.cs">
+      <DependentUpon>Reports.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParkingSpaces.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParkingSpaces.Designer.cs">
+      <DependentUpon>ParkingSpaces.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SignUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SignUp.Designer.cs">
+      <DependentUpon>SignUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="BookParking.resx">
+      <DependentUpon>BookParking.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParkingSpaces.resx">
+      <DependentUpon>ParkingSpaces.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Problems.resx">
+      <DependentUpon>Problems.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -62,7 +113,14 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Reports.resx">
+      <DependentUpon>Reports.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SignUp.resx">
+      <DependentUpon>SignUp.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -75,6 +133,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ion--car-sport-sharp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ion--home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maki--parking-garage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic--round-report-problem.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\line-md--document-report.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic--outline-logout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic--round-account-circle.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
