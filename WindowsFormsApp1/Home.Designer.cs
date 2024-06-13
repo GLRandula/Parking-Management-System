@@ -20,6 +20,8 @@ namespace ParkingManagementSystem
             base.Dispose(disposing);
         }
 
+        //change the code  jbs
+
         #region Windows Form Designer generated code
 
         /// <summary>
@@ -270,7 +272,7 @@ namespace ParkingManagementSystem
             // 
             this.slidepic.BackColor = System.Drawing.Color.Transparent;
             this.slidepic.Image = ((System.Drawing.Image)(resources.GetObject("slidepic.Image")));
-            this.slidepic.Location = new System.Drawing.Point(6, 148);
+            this.slidepic.Location = new System.Drawing.Point(386, 90);
             this.slidepic.Name = "slidepic";
             this.slidepic.Size = new System.Drawing.Size(1420, 676);
             this.slidepic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
