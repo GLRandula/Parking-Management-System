@@ -20,6 +20,8 @@ namespace ParkingManagementSystem
             base.Dispose(disposing);
         }
 
+        //change the code
+
         #region Windows Form Designer generated code
 
         /// <summary>
