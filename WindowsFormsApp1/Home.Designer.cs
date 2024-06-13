@@ -84,7 +84,7 @@ namespace ParkingManagementSystem
             this.sideBar.Controls.Add(this.label1);
             this.sideBar.Location = new System.Drawing.Point(0, 0);
             this.sideBar.Name = "sideBar";
-            this.sideBar.Size = new System.Drawing.Size(350, 1252);
+            this.sideBar.Size = new System.Drawing.Size(350, 1036);
             this.sideBar.TabIndex = 0;
             // 
             // pictureBox9
@@ -284,7 +284,7 @@ namespace ParkingManagementSystem
             this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
             this.pictureBox7.Location = new System.Drawing.Point(344, 327);
             this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(1079, 160);
+            this.pictureBox7.Size = new System.Drawing.Size(1082, 160);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBox7.TabIndex = 9;
             this.pictureBox7.TabStop = false;
@@ -314,14 +314,14 @@ namespace ParkingManagementSystem
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(1427, 826);
+            this.ClientSize = new System.Drawing.Size(1425, 828);
             this.Controls.Add(this.pictureBox8);
             this.Controls.Add(this.sideBar);
             this.Controls.Add(this.pictureBox7);
             this.Controls.Add(this.login);
             this.Controls.Add(this.signup);
             this.Controls.Add(this.slidepic);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Home";
             this.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

@@ -87,7 +87,7 @@ namespace ParkingManagementSystem
 
         private void slidepic_Click(object sender, EventArgs e)
         {
-            LoadNextImage();
+            //LoadNextImage();
         }
 
         private void pictureBox8_Click(object sender, EventArgs e)
