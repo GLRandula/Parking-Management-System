@@ -272,9 +272,9 @@ namespace ParkingManagementSystem
             // 
             this.slidepic.BackColor = System.Drawing.Color.Transparent;
             this.slidepic.Image = ((System.Drawing.Image)(resources.GetObject("slidepic.Image")));
-            this.slidepic.Location = new System.Drawing.Point(386, 90);
+            this.slidepic.Location = new System.Drawing.Point(3, 103);
             this.slidepic.Name = "slidepic";
-            this.slidepic.Size = new System.Drawing.Size(1420, 676);
+            this.slidepic.Size = new System.Drawing.Size(1430, 726);
             this.slidepic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.slidepic.TabIndex = 4;
             this.slidepic.TabStop = false;
@@ -286,7 +286,7 @@ namespace ParkingManagementSystem
             this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
             this.pictureBox7.Location = new System.Drawing.Point(344, 327);
             this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(1079, 160);
+            this.pictureBox7.Size = new System.Drawing.Size(1089, 160);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBox7.TabIndex = 9;
             this.pictureBox7.TabStop = false;
