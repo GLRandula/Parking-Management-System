@@ -142,21 +142,6 @@
             this.label76 = new System.Windows.Forms.Label();
             this.label77 = new System.Windows.Forms.Label();
             this.label78 = new System.Windows.Forms.Label();
-            this.label79 = new System.Windows.Forms.Label();
-            this.label80 = new System.Windows.Forms.Label();
-            this.label81 = new System.Windows.Forms.Label();
-            this.label82 = new System.Windows.Forms.Label();
-            this.label83 = new System.Windows.Forms.Label();
-            this.label84 = new System.Windows.Forms.Label();
-            this.label86 = new System.Windows.Forms.Label();
-            this.label87 = new System.Windows.Forms.Label();
-            this.label88 = new System.Windows.Forms.Label();
-            this.label89 = new System.Windows.Forms.Label();
-            this.label90 = new System.Windows.Forms.Label();
-            this.label91 = new System.Windows.Forms.Label();
-            this.label92 = new System.Windows.Forms.Label();
-            this.label93 = new System.Windows.Forms.Label();
-            this.label94 = new System.Windows.Forms.Label();
             label72 = new System.Windows.Forms.Label();
             label73 = new System.Windows.Forms.Label();
             this.sideBar.SuspendLayout();
@@ -195,7 +180,7 @@
             // 
             // sideBar
             // 
-            this.sideBar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.sideBar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
             | System.Windows.Forms.AnchorStyles.Left)));
             this.sideBar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(16)))), ((int)(((byte)(38)))));
             this.sideBar.Controls.Add(this.pictureBox1);
@@ -481,21 +466,7 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(15)))), ((int)(((byte)(22)))));
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel1.Controls.Add(this.label94);
-            this.panel1.Controls.Add(this.label93);
-            this.panel1.Controls.Add(this.label92);
-            this.panel1.Controls.Add(this.label91);
-            this.panel1.Controls.Add(this.label90);
-            this.panel1.Controls.Add(this.label89);
-            this.panel1.Controls.Add(this.label88);
-            this.panel1.Controls.Add(this.label87);
-            this.panel1.Controls.Add(this.label86);
-            this.panel1.Controls.Add(this.label84);
-            this.panel1.Controls.Add(this.label79);
-            this.panel1.Controls.Add(this.label80);
-            this.panel1.Controls.Add(this.label81);
-            this.panel1.Controls.Add(this.label82);
-            this.panel1.Controls.Add(this.label83);
+           
             this.panel1.Controls.Add(this.label78);
             this.panel1.Controls.Add(this.label77);
             this.panel1.Controls.Add(this.label76);
@@ -1425,125 +1396,7 @@
             this.label78.Size = new System.Drawing.Size(40, 5);
             this.label78.TabIndex = 19;
             // 
-            // label79
-            // 
-            this.label79.BackColor = System.Drawing.Color.Silver;
-            this.label79.Location = new System.Drawing.Point(173, 330);
-            this.label79.Name = "label79";
-            this.label79.Size = new System.Drawing.Size(40, 5);
-            this.label79.TabIndex = 24;
-            // 
-            // label80
-            // 
-            this.label80.BackColor = System.Drawing.Color.Silver;
-            this.label80.Location = new System.Drawing.Point(240, 330);
-            this.label80.Name = "label80";
-            this.label80.Size = new System.Drawing.Size(40, 5);
-            this.label80.TabIndex = 23;
-            // 
-            // label81
-            // 
-            this.label81.BackColor = System.Drawing.Color.Silver;
-            this.label81.Location = new System.Drawing.Point(303, 330);
-            this.label81.Name = "label81";
-            this.label81.Size = new System.Drawing.Size(40, 5);
-            this.label81.TabIndex = 22;
-            // 
-            // label82
-            // 
-            this.label82.BackColor = System.Drawing.Color.Silver;
-            this.label82.Location = new System.Drawing.Point(366, 330);
-            this.label82.Name = "label82";
-            this.label82.Size = new System.Drawing.Size(40, 5);
-            this.label82.TabIndex = 21;
-            // 
-            // label83
-            // 
-            this.label83.BackColor = System.Drawing.Color.Silver;
-            this.label83.Location = new System.Drawing.Point(104, 330);
-            this.label83.Name = "label83";
-            this.label83.Size = new System.Drawing.Size(40, 5);
-            this.label83.TabIndex = 20;
-            // 
-            // label84
-            // 
-            this.label84.BackColor = System.Drawing.Color.Silver;
-            this.label84.Location = new System.Drawing.Point(561, 300);
-            this.label84.Name = "label84";
-            this.label84.Size = new System.Drawing.Size(40, 5);
-            this.label84.TabIndex = 25;
-            // 
-            // label86
-            // 
-            this.label86.BackColor = System.Drawing.Color.Silver;
-            this.label86.Location = new System.Drawing.Point(815, 330);
-            this.label86.Name = "label86";
-            this.label86.Size = new System.Drawing.Size(40, 5);
-            this.label86.TabIndex = 27;
-            // 
-            // label87
-            // 
-            this.label87.BackColor = System.Drawing.Color.Silver;
-            this.label87.Location = new System.Drawing.Point(752, 330);
-            this.label87.Name = "label87";
-            this.label87.Size = new System.Drawing.Size(40, 5);
-            this.label87.TabIndex = 28;
-            // 
-            // label88
-            // 
-            this.label88.BackColor = System.Drawing.Color.Silver;
-            this.label88.Location = new System.Drawing.Point(687, 330);
-            this.label88.Name = "label88";
-            this.label88.Size = new System.Drawing.Size(40, 5);
-            this.label88.TabIndex = 29;
-            // 
-            // label89
-            // 
-            this.label89.BackColor = System.Drawing.Color.Silver;
-            this.label89.Location = new System.Drawing.Point(621, 330);
-            this.label89.Name = "label89";
-            this.label89.Size = new System.Drawing.Size(40, 5);
-            this.label89.TabIndex = 30;
-            // 
-            // label90
-            // 
-            this.label90.BackColor = System.Drawing.Color.Silver;
-            this.label90.Location = new System.Drawing.Point(561, 330);
-            this.label90.Name = "label90";
-            this.label90.Size = new System.Drawing.Size(40, 5);
-            this.label90.TabIndex = 31;
-            // 
-            // label91
-            // 
-            this.label91.BackColor = System.Drawing.Color.Silver;
-            this.label91.Location = new System.Drawing.Point(815, 300);
-            this.label91.Name = "label91";
-            this.label91.Size = new System.Drawing.Size(40, 5);
-            this.label91.TabIndex = 32;
-            // 
-            // label92
-            // 
-            this.label92.BackColor = System.Drawing.Color.Silver;
-            this.label92.Location = new System.Drawing.Point(752, 300);
-            this.label92.Name = "label92";
-            this.label92.Size = new System.Drawing.Size(40, 5);
-            this.label92.TabIndex = 33;
-            // 
-            // label93
-            // 
-            this.label93.BackColor = System.Drawing.Color.Silver;
-            this.label93.Location = new System.Drawing.Point(687, 300);
-            this.label93.Name = "label93";
-            this.label93.Size = new System.Drawing.Size(40, 5);
-            this.label93.TabIndex = 34;
-            // 
-            // label94
-            // 
-            this.label94.BackColor = System.Drawing.Color.Silver;
-            this.label94.Location = new System.Drawing.Point(621, 300);
-            this.label94.Name = "label94";
-            this.label94.Size = new System.Drawing.Size(40, 5);
-            this.label94.TabIndex = 35;
+           
             // 
             // ParkingSpaces
             // 
