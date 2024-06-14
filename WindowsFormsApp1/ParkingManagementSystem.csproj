@@ -155,5 +155,8 @@
   <ItemGroup>
     <None Include="Resources\ic--round-account-circle.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SignUp.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
