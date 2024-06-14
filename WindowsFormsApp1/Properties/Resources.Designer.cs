@@ -63,6 +63,16 @@ namespace ParkingManagementSystem.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap bttn2 {
+            get {
+                object obj = ResourceManager.GetObject("bttn2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ic__outline_logout {
             get {
                 object obj = ResourceManager.GetObject("ic--outline-logout", resourceCulture);
@@ -133,9 +143,29 @@ namespace ParkingManagementSystem.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap oL5c2_1 {
+            get {
+                object obj = ResourceManager.GetObject("oL5c2 1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap SignUp {
             get {
                 object obj = ResourceManager.GetObject("SignUp", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap VS53t_1 {
+            get {
+                object obj = ResourceManager.GetObject("VS53t 1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
