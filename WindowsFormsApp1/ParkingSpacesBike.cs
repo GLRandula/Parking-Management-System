@@ -10,14 +10,19 @@ using System.Windows.Forms;
 
 namespace ParkingManagementSystem
 {
-    public partial class Login : Form
+    public partial class ParkingSpacesBike : Form
     {
-        public Login()
+        public ParkingSpacesBike()
         {
             InitializeComponent();
         }
 
-        private void Login_Load(object sender, EventArgs e)
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
         {
 
         }

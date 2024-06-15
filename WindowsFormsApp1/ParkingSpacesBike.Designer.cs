@@ -1,6 +1,6 @@
-namespace ParkingManagementSystem
+﻿namespace ParkingManagementSystem
 {
-    partial class Home
+    partial class ParkingSpacesBike
     {
         /// <summary>
         /// Required designer variable.
@@ -20,8 +20,6 @@ namespace ParkingManagementSystem
             base.Dispose(disposing);
         }
 
-        //change the code  jbs
-
         #region Windows Form Designer generated code
 
         /// <summary>
@@ -30,10 +28,11 @@ namespace ParkingManagementSystem
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Home));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ParkingSpacesBike));
             this.sideBar = new System.Windows.Forms.Panel();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.label8 = new System.Windows.Forms.Label();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
@@ -42,28 +41,24 @@ namespace ParkingManagementSystem
             this.label6 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label4 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
-            this.backgroundWorker2 = new System.ComponentModel.BackgroundWorker();
-            this.signup = new System.Windows.Forms.Button();
-            this.login = new System.Windows.Forms.Button();
-            this.slidepic = new System.Windows.Forms.PictureBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.label4 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.sideBar.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.slidepic)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             this.SuspendLayout();
             // 
             // sideBar
@@ -71,7 +66,9 @@ namespace ParkingManagementSystem
             this.sideBar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.sideBar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.sideBar.Controls.Add(this.pictureBox9);
+            this.sideBar.Controls.Add(this.pictureBox7);
+            this.sideBar.Controls.Add(this.pictureBox6);
+            this.sideBar.Controls.Add(this.label3);
             this.sideBar.Controls.Add(this.pictureBox5);
             this.sideBar.Controls.Add(this.label8);
             this.sideBar.Controls.Add(this.pictureBox4);
@@ -80,25 +77,45 @@ namespace ParkingManagementSystem
             this.sideBar.Controls.Add(this.label6);
             this.sideBar.Controls.Add(this.pictureBox2);
             this.sideBar.Controls.Add(this.label5);
-            this.sideBar.Controls.Add(this.pictureBox1);
-            this.sideBar.Controls.Add(this.label4);
             this.sideBar.Controls.Add(this.label2);
             this.sideBar.Controls.Add(this.label1);
-            this.sideBar.Location = new System.Drawing.Point(0, 0);
+            this.sideBar.Location = new System.Drawing.Point(-2, -3);
             this.sideBar.Name = "sideBar";
-            this.sideBar.Size = new System.Drawing.Size(350, 1252);
-            this.sideBar.TabIndex = 0;
+            this.sideBar.Size = new System.Drawing.Size(346, 995);
+            this.sideBar.TabIndex = 1;
             // 
-            // pictureBox9
+            // pictureBox7
             // 
-            this.pictureBox9.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
-            this.pictureBox9.Location = new System.Drawing.Point(18, 195);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(317, 67);
-            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox9.TabIndex = 11;
-            this.pictureBox9.TabStop = false;
+            this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
+            this.pictureBox7.Location = new System.Drawing.Point(33, 264);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(280, 60);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox7.TabIndex = 2;
+            this.pictureBox7.TabStop = false;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
+            this.pictureBox6.Location = new System.Drawing.Point(81, 209);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(35, 35);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox6.TabIndex = 13;
+            this.pictureBox6.TabStop = false;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label3.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label3.Location = new System.Drawing.Point(129, 214);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(70, 28);
+            this.label3.TabIndex = 14;
+            this.label3.Text = "Home";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // pictureBox5
             // 
@@ -142,7 +159,6 @@ namespace ParkingManagementSystem
             this.label7.Size = new System.Drawing.Size(75, 24);
             this.label7.TabIndex = 10;
             this.label7.Text = "Log Out";
-            this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // pictureBox3
             // 
@@ -165,7 +181,6 @@ namespace ParkingManagementSystem
             this.label6.Size = new System.Drawing.Size(117, 28);
             this.label6.TabIndex = 8;
             this.label6.Text = "All Reports";
-            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // pictureBox2
             // 
@@ -188,30 +203,6 @@ namespace ParkingManagementSystem
             this.label5.Size = new System.Drawing.Size(102, 28);
             this.label5.TabIndex = 6;
             this.label5.Text = "Problems";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::ParkingManagementSystem.Properties.Resources.maki__parking_garage;
-            this.pictureBox1.Location = new System.Drawing.Point(79, 279);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(35, 35);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 3;
-            this.pictureBox1.TabStop = false;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label4.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label4.Location = new System.Drawing.Point(127, 284);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(153, 28);
-            this.label4.TabIndex = 4;
-            this.label4.Text = "Parking Spaces";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // label2
             // 
@@ -234,139 +225,156 @@ namespace ParkingManagementSystem
             this.label1.Size = new System.Drawing.Size(215, 45);
             this.label1.TabIndex = 1;
             this.label1.Text = "PARKING";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // signup
+            // label4
             // 
-            this.signup.BackColor = System.Drawing.Color.DarkBlue;
-            this.signup.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.signup.FlatAppearance.BorderColor = System.Drawing.Color.MediumOrchid;
-            this.signup.FlatAppearance.BorderSize = 0;
-            this.signup.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.signup.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.signup.Location = new System.Drawing.Point(1216, 50);
-            this.signup.Name = "signup";
-            this.signup.Size = new System.Drawing.Size(151, 48);
-            this.signup.TabIndex = 1;
-            this.signup.Text = "SignUp";
-            this.signup.UseVisualStyleBackColor = false;
-            this.signup.Click += new System.EventHandler(this.button1_Click);
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label4.Location = new System.Drawing.Point(880, 39);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(73, 28);
+            this.label4.TabIndex = 2;
+            this.label4.Text = "Empty";
             // 
-            // login
+            // textBox1
             // 
-            this.login.BackColor = System.Drawing.Color.Black;
-            this.login.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.login.FlatAppearance.BorderColor = System.Drawing.Color.MediumOrchid;
-            this.login.FlatAppearance.BorderSize = 0;
-            this.login.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.login.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.login.Location = new System.Drawing.Point(1055, 50);
-            this.login.Name = "login";
-            this.login.Size = new System.Drawing.Size(151, 48);
-            this.login.TabIndex = 3;
-            this.login.Text = "Login";
-            this.login.UseVisualStyleBackColor = false;
-            this.login.Click += new System.EventHandler(this.login_Click);
+            this.textBox1.BackColor = System.Drawing.Color.Green;
+            this.textBox1.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(837, 35);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(37, 36);
+            this.textBox1.TabIndex = 3;
             // 
-            // slidepic
+            // textBox2
             // 
-            this.slidepic.BackColor = System.Drawing.Color.Transparent;
-            this.slidepic.Image = ((System.Drawing.Image)(resources.GetObject("slidepic.Image")));
-            this.slidepic.Location = new System.Drawing.Point(3, 103);
-            this.slidepic.Name = "slidepic";
-            this.slidepic.Size = new System.Drawing.Size(1430, 726);
-            this.slidepic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.slidepic.TabIndex = 4;
-            this.slidepic.TabStop = false;
-            this.slidepic.Click += new System.EventHandler(this.slidepic_Click);
+            this.textBox2.BackColor = System.Drawing.Color.Red;
+            this.textBox2.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox2.Location = new System.Drawing.Point(977, 35);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(37, 36);
+            this.textBox2.TabIndex = 5;
             // 
-            // pictureBox7
+            // label9
             // 
-            this.pictureBox7.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
-            this.pictureBox7.Location = new System.Drawing.Point(344, 327);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(1089, 160);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox7.TabIndex = 9;
-            this.pictureBox7.TabStop = false;
+            this.label9.AutoSize = true;
+            this.label9.BackColor = System.Drawing.Color.Transparent;
+            this.label9.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label9.Location = new System.Drawing.Point(1020, 39);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(65, 28);
+            this.label9.TabIndex = 4;
+            this.label9.Text = "Filled";
             // 
-            // pictureBox8
+            // pictureBox1
             // 
-            this.pictureBox8.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox8.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
-            this.pictureBox8.Location = new System.Drawing.Point(1387, 4);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(35, 33);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox8.TabIndex = 10;
-            this.pictureBox8.TabStop = false;
-            this.pictureBox8.Click += new System.EventHandler(this.pictureBox8_Click);
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(1159, 30);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(211, 50);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 6;
+            this.pictureBox1.TabStop = false;
             // 
-            // timer1
+            // label10
             // 
-            this.timer1.Enabled = true;
-            this.timer1.Interval = 2000;
-            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            this.label10.AutoSize = true;
+            this.label10.BackColor = System.Drawing.Color.Transparent;
+            this.label10.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label10.Location = new System.Drawing.Point(393, 35);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(83, 28);
+            this.label10.TabIndex = 7;
+            this.label10.Text = "Parking";
             // 
-            // Home
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Transparent;
+            this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
+            this.button1.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button1.Location = new System.Drawing.Point(493, 30);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(68, 45);
+            this.button1.TabIndex = 8;
+            this.button1.Text = "Car";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.Transparent;
+            this.button2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button2.BackgroundImage")));
+            this.button2.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button2.Location = new System.Drawing.Point(567, 30);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(68, 45);
+            this.button2.TabIndex = 9;
+            this.button2.Text = "Bike";
+            this.button2.UseVisualStyleBackColor = false;
+            // 
+            // ParkingSpacesBike
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(1427, 826);
-            this.Controls.Add(this.pictureBox8);
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(1426, 825);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.label10);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.sideBar);
-            this.Controls.Add(this.pictureBox7);
-            this.Controls.Add(this.login);
-            this.Controls.Add(this.signup);
-            this.Controls.Add(this.slidepic);
+            this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Home";
-            this.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Home";
-            this.Load += new System.EventHandler(this.Home_Load);
+            this.Name = "ParkingSpacesBike";
+            this.Text = "Form1";
             this.sideBar.ResumeLayout(false);
             this.sideBar.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.slidepic)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
         private System.Windows.Forms.Panel sideBar;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.Label label7;
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.Label label8;
-        private System.ComponentModel.BackgroundWorker backgroundWorker1;
-        private System.ComponentModel.BackgroundWorker backgroundWorker2;
-        private System.Windows.Forms.Button signup;
-        private System.Windows.Forms.Button login;
-        private System.Windows.Forms.PictureBox slidepic;
+        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.PictureBox pictureBox7;
-        private System.Windows.Forms.PictureBox pictureBox8;
-        private System.Windows.Forms.PictureBox pictureBox9;
-        private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
     }
 }
