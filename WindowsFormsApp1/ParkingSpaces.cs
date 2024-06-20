@@ -16,5 +16,26 @@ namespace ParkingManagementSystem
         {
             InitializeComponent();
         }
+
+        private void pictureBox19_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label94_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            ParkingSpacesBike parkingSpacesBike = new ParkingSpacesBike();
+            parkingSpacesBike.Show();
+        }
+
+        private void pictureBox18_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
