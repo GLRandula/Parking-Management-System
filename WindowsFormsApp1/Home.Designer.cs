@@ -162,7 +162,7 @@ namespace ParkingManagementSystem
             this.label6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label6.Location = new System.Drawing.Point(127, 421);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(117, 28);
+            this.label6.Size = new System.Drawing.Size(124, 29);
             this.label6.TabIndex = 8;
             this.label6.Text = "All Reports";
             this.label6.Click += new System.EventHandler(this.label6_Click);
@@ -185,7 +185,7 @@ namespace ParkingManagementSystem
             this.label5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label5.Location = new System.Drawing.Point(127, 353);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(102, 28);
+            this.label5.Size = new System.Drawing.Size(109, 29);
             this.label5.TabIndex = 6;
             this.label5.Text = "Problems";
             this.label5.Click += new System.EventHandler(this.label5_Click);
@@ -208,7 +208,7 @@ namespace ParkingManagementSystem
             this.label4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label4.Location = new System.Drawing.Point(127, 284);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(153, 28);
+            this.label4.Size = new System.Drawing.Size(162, 29);
             this.label4.TabIndex = 4;
             this.label4.Text = "Parking Spaces";
             this.label4.Click += new System.EventHandler(this.label4_Click);
@@ -220,7 +220,7 @@ namespace ParkingManagementSystem
             this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label2.Location = new System.Drawing.Point(65, 103);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(202, 25);
+            this.label2.Size = new System.Drawing.Size(214, 25);
             this.label2.TabIndex = 2;
             this.label2.Text = "MANAGEMENT SYSTEM";
             // 
@@ -231,7 +231,7 @@ namespace ParkingManagementSystem
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label1.Location = new System.Drawing.Point(59, 63);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(215, 45);
+            this.label1.Size = new System.Drawing.Size(221, 46);
             this.label1.TabIndex = 1;
             this.label1.Text = "PARKING";
             this.label1.Click += new System.EventHandler(this.label1_Click);
