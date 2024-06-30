@@ -16,5 +16,20 @@ namespace ParkingManagementSystem
         {
             InitializeComponent();
         }
+
+        private void sideBar_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void pictureBox7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox11_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
