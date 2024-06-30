@@ -164,5 +164,22 @@
   <ItemGroup>
     <None Include="Resources\ic--round-account-circle.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\3.png" />
+    <Content Include="Resources\7.png" />
+    <Content Include="Resources\8.png" />
+    <Content Include="Resources\9.png" />
+    <Content Include="Resources\alert.png" />
+    <Content Include="Resources\arrow1.png" />
+    <Content Include="Resources\bike1.png" />
+    <Content Include="Resources\bike2.png" />
+    <Content Include="Resources\bike3.png" />
+    <Content Include="Resources\bike4.png" />
+    <Content Include="Resources\car1.png" />
+    <Content Include="Resources\car2.png" />
+    <Content Include="Resources\close.png" />
+    <Content Include="Resources\Group 41.png" />
+    <Content Include="Resources\searching.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
